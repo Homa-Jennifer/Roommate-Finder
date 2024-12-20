@@ -58,7 +58,7 @@ const  TextField: React.FC<TextFieldProps> = ({
     }
 
     return (
-        <View className='w-full h-16 border border-secondary rounded-md py-2 justify-start items-center bg-white my-2 px-2 flex-row'>
+        <View className='w-full h-16 border border-secondary rounded-xl py-2 justify-start items-center bg-white my-2 px-2 flex-row'>
             <Animated.Text
                 style={[styles.label, {
                     top: labelPosition,
