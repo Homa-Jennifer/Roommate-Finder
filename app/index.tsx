@@ -1,17 +1,14 @@
-import { Text, View } from "react-native";
+import { View } from "react-native";
+import Button from "@/components/Button";
+import AppMockUp from "@/components/mockups/AppMockUp";
 
 export default function Index() {
   return (
     <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center"
-      }}
+        className="w-screen h-full items-center px-7"
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
-        <View className="bg-amber-200 w-4 h-4 rounded-3xl"></View>
-        <View className="w-10 h-10 rounded-3xl bg-amber-200"></View>
+      <AppMockUp screenType={"screenA"}/>
+      <View className={'bottom-10 absolute w-full'}><Button title={'Continue'} href={'onboarding/onboarding-two'}/></View>
     </View>
   );
 }
