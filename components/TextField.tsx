@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
     label: {
         position: 'absolute',
         left: 10,
-        fontWeight: 'bold',
+        fontWeight: 'semibold',
     },
     input: {
         flex: 1,
