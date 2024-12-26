@@ -8,7 +8,7 @@ export default function OnboardingThree() {
             className="w-screen h-full items-center px-7"
         >
             <AppMockUp screenType={"screenC"}/>
-            <View className={'bottom-10 absolute w-full'}><Button title={'Get Started'} /></View>
+            <View className={'bottom-10 absolute w-full'}><Button title={'Get Started'} href={'auth-screens'}/></View>
         </View>
     );
 }
