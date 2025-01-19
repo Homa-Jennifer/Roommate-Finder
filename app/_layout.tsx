@@ -14,6 +14,11 @@ export default function RootLayout() {
           <Stack.Screen name='auth-screens/login' options={{ headerShown: false }} />
           <Stack.Screen name='auth-screens/forgot-password' options={{ headerShown: false }} />
           <Stack.Screen name='auth-screens/otp-screen' options={{ headerShown: false }} />
+
+        {/* Preference Screens */}
+        <Stack.Screen name='preferences/index' options={{ headerShown: false }} />
+          <Stack.Screen name={'preferences/preference_one'} options={{ headerShown: false }} />
+          <Stack.Screen name='preferences/preference_two' options={{ headerShown: false }} />
       </Stack>
   )
 }

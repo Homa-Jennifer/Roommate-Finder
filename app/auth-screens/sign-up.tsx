@@ -9,7 +9,7 @@ export default function SignUp() {
                 <Text className={'text-3xl font-bold tracking-wide'}>Sign Up</Text>
                 <Text className={'text-xl'}>Create your account so we can get you started</Text>
             </View>
-            <View className={'w-full mt-10'}>
+            <View className={'w-full mt-6'}>
                 <Text className={'text-xl'}>Username</Text>
                 <TextField placeholder={'Homa'}/>
             </View>
@@ -31,7 +31,7 @@ export default function SignUp() {
             </View>
 
             <View className={'w-full mt-10'}>
-                <Button title={'Create account'}/>
+                <Button title={'Create account'} href={'preferences'}/>
             </View>
 
         </View>
