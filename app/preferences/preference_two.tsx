@@ -38,7 +38,7 @@ export default function PreferenceTwo() {
                     </View>
                 ))}
             </View>
-            <Button title={'Continue'} />
+            <Button title={'Continue'} href={'/(tabs)'}/>
         </View>
     );
 }

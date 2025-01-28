@@ -27,7 +27,7 @@ export default function Login() {
             </View>
 
             <View className={'w-full mt-10'}>
-                <Button title={'Log In'}/>
+                <Button title={'Log In'} href={'/(tabs)'}/>
             </View>
 
         </View>
