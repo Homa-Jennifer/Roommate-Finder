@@ -15,6 +15,10 @@ export default function Home() {
                 </View>
                 <MaterialIcons name={'notifications'} size={32}/>
             </View>
+            <View className={'w-full h-14 bg-[#D9D9D9] mt-4 rounded-xl p-3'}>
+                <MaterialIcons name={'search'} size={32
+                }/>
+            </View>
             <CardSwiper/>
         </View>
     )
