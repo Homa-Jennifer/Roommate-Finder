@@ -1,5 +1,6 @@
 import {Image, Text, View} from "react-native";
 import {MaterialIcons} from "@expo/vector-icons";
+import CardSwiper from "@/components/CardSwiper";
 
 export default function Home() {
     return (
@@ -14,6 +15,7 @@ export default function Home() {
                 </View>
                 <MaterialIcons name={'notifications'} size={32}/>
             </View>
+            <CardSwiper/>
         </View>
     )
 }
