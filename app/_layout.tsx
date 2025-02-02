@@ -27,6 +27,9 @@ export default function RootLayout() {
             {/*Details Screens*/}
             <Stack.Screen name={'details/index'} options={{headerShown: false}}/>
             <Stack.Screen name={'details/hostel-details'} options={{headerShown: false}}/>
+
+            {/*Notification Screens*/}
+            <Stack.Screen name={'notification/index'} options={{headerShown: false}}/>
         </Stack>
     )
 }
